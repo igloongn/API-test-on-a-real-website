@@ -6,4 +6,5 @@ urlpatterns = [
     path('', v.index, name='index'),
     path('req/', v.request, name='req'),
     path('news/', v.news, name='news'),
+    path('create/', v.create, name='create'),
 ]
